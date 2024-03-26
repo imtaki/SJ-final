@@ -1,3 +1,6 @@
+<?php
+  require('_inc/functions.php');
+?>
 <!DOCTYPE html>
 <html lang="sk">
 
@@ -26,16 +29,15 @@
             </a>
             <div class="justify-content-center">
               <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class ="nav-link" href="index.php">DOMOV</a></li>
-                <li class="nav-item">
-                    <a class ="nav-link" href="services.php">O NAS</a></li>
-                <li class="nav-item">
-                    <a class ="nav-link" href="aboutus.php">SLUZBY</a></li>
-                <li class="nav-item">
-                    <a class ="nav-link" href="gallery.php">GALERIA</a></li>
-                <li class="nav-item">
-                  <a class ="nav-link" id="contact" href="contactus.php">KONTAKTUJ NAS</a></li>
+              <?php
+              $pages = array('DOMOV'=>'index.php',
+                'O NAS'=>'services.php',
+                'SLUZBY'=>'aboutus.php',
+                'GALERIA'=>'gallery.php',
+                'KONTAKTUJ NAS' => 'contactus.php' 
+           );
+           echo(generate_menu($pages));
+        ?>
                   
               </ul>
             </div>
