@@ -5,7 +5,7 @@ function generate_menu(array $pages): string{
     // Prechádza všetky položky v zadanom zozname stránok a URL adries
     foreach($pages as $page_name => $page_url){
         // Pre každú stránku pridá odkaz do navigačného menu
-        $menuItems .= '<li><a href="' . $page_url . '">' . $page_name . '</a></li>';
+        $menuItems .= '<li class="nav-item ms-3"><a class="nav-link" href="' . $page_url . '">' . $page_name . '</a></li>';
     }
 
     // Vráti vygenerovaný HTML kód pre navigačné menu
