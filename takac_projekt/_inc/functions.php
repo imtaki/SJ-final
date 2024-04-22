@@ -11,4 +11,5 @@ function generate_menu(array $pages): string{
     // Vráti vygenerovaný HTML kód pre navigačné menu
     return $menuItems;
 }
+require_once('config.php');
 ?>

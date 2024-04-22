@@ -9,7 +9,7 @@
     <br>
     <!-- Contact Form-->
     <div class="container mt-5 text-center" id="kontaktcont">
-      <form id="myForm" action="thank_you_page.html" method="get">
+      <form id="myForm" action="thank_you_page.php" method="POST">
         <div class="form-group">
           <label for="meno">Meno:</label>
           <input type="text" class="form-control" id="meno" name="meno" required>
