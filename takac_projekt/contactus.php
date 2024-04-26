@@ -39,7 +39,7 @@
             Musíte súhlasiť so spracovaním osobných údajov.
           </div>
         </div>
-        <button type="submit" class="btn btn-primary mt-3">Odoslať</button>
+        <button type="submit"  name ="submitted" class="btn btn-primary mt-3">Odoslať</button>
       </form>
     </div>
 
