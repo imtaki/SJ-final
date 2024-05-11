@@ -36,6 +36,9 @@
                 'GALERIA'=>'gallery.php',
                 'KONTAKTUJ NAS' => 'contactus.php' 
            );
+           if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
+             $pages['Odhlasit sa'] = 'logout.php';
+           }
            echo(generate_menu($pages));
         ?>
                   

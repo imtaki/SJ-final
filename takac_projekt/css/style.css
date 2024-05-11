@@ -185,7 +185,7 @@ span {
     background-color: rgb(247, 231, 3);
     cursor: pointer;
     transition: 0.3s;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .form-control {
     font-weight:500;
@@ -256,3 +256,11 @@ a.socials-item {
       font-size: 12px;
     }
   }
+  #sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; 
+    color: white; 
+  }
+

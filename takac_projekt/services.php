@@ -6,6 +6,11 @@
     <br>
     <br>
     <br>
+    <style>
+        .extra-space {
+            margin-bottom: 200px; 
+        }
+    </style>
     <!-- O nas Akordeon-->
     <section class="service" id="service">
     <div class="accordion" id="accordionExample">
@@ -50,9 +55,8 @@
         </div>
       </div>
     </div>
+    <div class="extra-space"></div>
 </section>
-<br>
-<br>
 <?php
   include('partials/footer.php');
 ?>

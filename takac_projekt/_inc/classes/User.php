@@ -16,9 +16,9 @@
                 $query_run = $this->db->prepare($sql);
                 $query_run->execute($data);
                 if($query_run->rowCount() == 1) {
-                    // login je uspesny
+                    $user = $query_run->fetch();
                     $_SESSION['logged_in'] = true;
-                    $_SESSION['is_admin'] = $query_run->fetch()->role;
+                    $_SESSION['is_admin'] = $user['role'];
                     return true;
                 } else {
                     return false;
