@@ -37,7 +37,10 @@
                 'KONTAKTUJ NAS' => 'contactus.php' 
            );
            if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
-             $pages['Odhlasit sa'] = 'logout.php';
+             $pages['ODHLASIT SA'] = 'logout.php';
+             $pages['ADMIN'] = 'admin.php';
+           } else {
+            $pages ['REGISTER'] = 'register.php';
            }
            echo(generate_menu($pages));
         ?>

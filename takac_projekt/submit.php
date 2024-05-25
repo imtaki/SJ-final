@@ -1,5 +1,4 @@
 <?php
-// Include the Database and Contact classes
 require_once('_inc/classes/Database.php');
 require_once('_inc/classes/Contact.php');
 

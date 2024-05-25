@@ -1,7 +1,7 @@
 
 <?php
 
-class page
+class Page
 {
     private $page_name;
 

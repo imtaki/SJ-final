@@ -1,11 +1,4 @@
 <?php
-/*const DATABASE = [
-    'HOST' => 'localhost',
-    'DBNAME' => 'fitlife',
-    'USER_NAME' => 'root',
-    'PASSWORD' => 'root'
-]; */
-// admin session
 session_start();
 
 require_once('classes/Page.php');

@@ -35,9 +35,6 @@
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="suhlas" name="suhlas" required>
           <label class="form-check-label" for="suhlas">Súhlasím so spracovaním osobných údajov</label>
-          <div class="invalid-feedback">
-            Musíte súhlasiť so spracovaním osobných údajov.
-          </div>
         </div>
         <button type="submit"  name ="submitted" class="btn btn-primary mt-3">Odoslať</button>
       </form>
