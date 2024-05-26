@@ -1,5 +1,4 @@
 <?php
-    include_once('Database.php');
     class Contact extends Database {
         private $db;
     

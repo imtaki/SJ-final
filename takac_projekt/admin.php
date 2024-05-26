@@ -31,7 +31,9 @@
             <div class="col-100 text-left">
                 <h1 class="text-center">Admin rozhranie</h1>
                 <?php
+                   if($_SESSION['is_admin'] == 1){
                     include('partials/admin-kontakt.php');
+                }
                 ?>
             </div>
         </div>

@@ -1,12 +1,7 @@
 <?php
   include('partials/header.php');
 ?>
-      <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+      <br><br><br><br><br><br>
     <!-- Contact Form-->
     <div class="container mt-5 text-center" id="kontaktcont">
       <form id="myForm" action="submit.php" method="POST">

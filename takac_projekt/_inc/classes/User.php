@@ -1,5 +1,4 @@
 <?php
-include_once('Database.php');
 class User extends Database {
     private $db;
     public function __construct() {
@@ -20,7 +19,6 @@ class User extends Database {
             $n_rows = $query_run->rowCount();
 
             if($n_rows == 1) {
-                $user = $query_run->fetch(PDO::FETCH_ASSOC);
                 $_SESSION['logged_in'] = true;
                 $_SESSION['is_admin'] = $query_run->fetch()->role;
                 return true;
